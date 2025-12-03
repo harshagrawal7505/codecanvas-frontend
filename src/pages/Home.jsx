@@ -9,6 +9,7 @@ import htmlImg from '../assets/html.png';
 import cssImg from '../assets/css.png';
 import jsImg from '../assets/js.png';
 import Modal from '../components/ui/Modal';
+import { API_URL } from '../config';
 
 function Home() {
   const navigate = useNavigate();

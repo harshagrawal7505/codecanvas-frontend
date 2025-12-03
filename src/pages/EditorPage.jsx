@@ -7,6 +7,7 @@ import Chat from '../components/room/Chat';
 import { useSocket } from '../context/SocketContext';
 import img from '../assets/img.svg';
 import { useAuth } from '../context/AuthContext';
+import { API_URL } from '../config';
 
 function EditorPage() {
   const { token } = useAuth();
